@@ -23,7 +23,7 @@ const postController = {
     const { user } = req.session;
 
     const newPost = Publication.create({
-      image: `/posts/${photo.originalname}`,
+      image: `/posts/${photo.filename}`,
       like: 0,
       users_id: user.id,
       create_at: new Date(),
