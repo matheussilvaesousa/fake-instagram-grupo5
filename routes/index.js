@@ -29,8 +29,6 @@ router.post("/registro", userController.store);
 router.get("/publicar", postController.create);
 router.post("/publicar", upload.any(), postController.store);
 
-router.get("/home", function (req, res, next) {
-  res.render("index", { title: "Express" });
-});
+router.get("/home", postController.index);
 
 module.exports = router;

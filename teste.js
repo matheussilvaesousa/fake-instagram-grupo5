@@ -7,14 +7,9 @@ async function verFeed() {
         model: User,
         as: "user",
         required: true,
-      },
-      {
-        mode,
-      },
+      }
     ],
   });
-
-  console.log(listaDePublications[0].user);
 }
 
 async function criarPublicacao() {
@@ -48,5 +43,3 @@ async function verPublicacoes(idUser) {
 
   console.log(publications);
 }
-
-verPublicacoes(1);

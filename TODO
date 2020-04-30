@@ -1,3 +1,7 @@
 
-Todo:
-  ☐ Item
+1º Piloto - Exibir feed:
+    ☐ Alterar rota get '/home' para direcionar controller postController.index
+    ☐ Puxar do banco de dados, todas as publicações e as informações do usuário que a fez.
+    ☐ Usar a biblioteca moment js para formatar a data do post.
+    ☐ Exibir na view de feed, as informações recebidas do banco.
+    ☐ Criar a a regra que, só poderá entrar no feed quem estiver logado no sistema
